@@ -19,14 +19,14 @@ Created a page where guest can check their reservation and update their Estimate
 
  3. Run local server
  
-   ``` yarn start ```
+    ``` yarn start ```
 
  4. Open http://localhost:3000/ on your browser
 
 
 ## Notes
 
-###How to navigate inside the website
+### How to navigate inside the website
  1. Press the sign in button (you don't need to fill username/password) 
  2. Navigate to guest portal
 
@@ -57,7 +57,7 @@ src
     └── serviceWorker.js
 ```
 
-- guestDetails.js is the main file (App.js equivalent)
+- guestDetails.js is the main file (equivalent to an App.js file)
 - BookingDetails.js is a component used to render the booking details
 - Serach.js is a component used to create a text field capable of searching booking codes with query validation
 - A GET request is made every time the query changes
