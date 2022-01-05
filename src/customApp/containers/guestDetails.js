@@ -10,6 +10,8 @@ const App = () => {
   const [items, setItems] = useState([]);
   const [query, setQuery] = useState('');
 
+
+  // A GET request is made every time the query changes. 
   useEffect(
     () => {
       const fetchItems = async () => {
@@ -18,7 +20,6 @@ const App = () => {
         );
 
         // console.log(result.data);
-
         setItems(result.data);
       };
 
@@ -30,7 +31,7 @@ const App = () => {
   return (
     <LayoutContentWrapper style={{ height: '100vh' }}>
       <LayoutContent style={{ textAlign: 'center' }}>
-        <h1>Guest Page</h1>
+        <h1>Guest Portal</h1>
         <br />
         <IntlMessages id="print.yourBookingCode" />
         <Search

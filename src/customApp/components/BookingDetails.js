@@ -3,6 +3,7 @@ import IntlMessages from '../../components/utility/intlMessages';
 import UpdateTime from '../components/UpdateTime';
 import { Avatar } from 'antd';
 
+// renders the booking details page
 const BookingDetails = ({ items, query }) => {
   const customStyles = { color: 'black', fontWeight: 'bold' };
 

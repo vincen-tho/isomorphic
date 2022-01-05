@@ -4,6 +4,7 @@ const Search = ({ getQuery }) => {
   const [text, setText] = useState('');
   const [errorMsg, setErrorMsg] = useState('');
 
+  // validate the user input
   const validation = (query) => {
     if (!query.match(/^[A-Z]+[0-9]+$/)) {
       setErrorMsg('Should be combination of numbers & alphabets');

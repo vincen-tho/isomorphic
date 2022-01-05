@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { TimePicker } from 'antd';
-import moment from 'moment';
+import { TimePicker, Button } from 'antd';
 import axios from 'axios';
-import { update } from 'lodash';
 
 const UpdateTime = ({ query }) => {
   const [timeString, setTimeString] = useState('');
@@ -42,7 +40,9 @@ const UpdateTime = ({ query }) => {
           console.log(timeString);
         }}
       />
-      <button onClick={() => updateData(timeString)}>Submit</button>
+      <Button type="primary" onClick={() => updateData(timeString)}>
+        Submit
+      </Button>
     </>
   );
 };
