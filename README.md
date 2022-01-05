@@ -10,19 +10,26 @@ Created a page where guest can check their reservation and update their Estimate
 ### How to run
 
  1. Clone the repo
+ 
     ``` git clone https://github.com/vincen-tho/isomorphic.git ```
 
  2. Install NPM packages
+ 
     ``` yarn install ```
 
  3. Run local server
+ 
    ``` yarn start ```
 
  4. Open http://localhost:3000/ on your browser
- 5. Press the sign in button (you don't need to fill username/password) 
- 6. Navigate to guest portal
+
 
 ## Notes
+
+###How to navigate inside the website
+ 1. Press the sign in button (you don't need to fill username/password) 
+ 2. Navigate to guest portal
+
 My work is inside the customApp folder.
 
 Directory: 
